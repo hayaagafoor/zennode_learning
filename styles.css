@@ -1,9 +1,22 @@
-.hero{
-    text-align: center;
+body {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-body {
-box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+button {
+  background: #21759b;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #195f7a;
+}
+
+.hero{
+    text-align: center;
 }
 
 .section-index {
@@ -33,47 +46,28 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   padding: 20px;
 }
 
+.card-content {
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+} 
 
-.card {
-width: 100%;
-box-sizing: border-box;
-background: white;
-padding: 20px;
-border-radius: 12px;
-box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-transition: transform 0.3s ease;
+.card-content:hover {
+  transform: translateY(-5px);
 }
-
-
-.card:hover {
-transform: translateY(-5px);
-}
-
 
 .btn-area {
-text-align: center;
-margin: 30px;
+  text-align: center;
+  margin: 30px;
 }
-
-
-button {
-background: #21759b;
-color: white;
-border: none;
-padding: 12px 25px;
-border-radius: 25px;
-cursor: pointer;
-}
-
-
-button:hover {
-background: #195f7a;
-}
-
 
 #factText {
-margin-top: 15px;
-font-style: italic;
+  margin-top: 15px;
+  font-style: italic;
 }
 
 .split-layout {
